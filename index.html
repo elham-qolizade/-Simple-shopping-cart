@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>books</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1>
+                کتاب ها
+            </h1>
+            <div class="input">
+                <div>
+                    <label style="    margin-top: 3%;
+                    margin-right: 4%;" for="username">نام کتاب</label>
+                    <input type="text" required="" id="username" placeholder="." />
+                </div>
+                <div>
+
+                    <label for="username">تعداد کتاب</label>
+
+                    <input type="number" required="" id="number" placeholder="." />
+                </div>
+                <div class="b-line"></div>
+            </div>
+
+            <button type="button" class="submit">ثبت</button>
+        </form>
+        <div class="pop-up">
+            <p> با موفقیت ثبت شد</p>
+            <button style="background-color: yellow;" class="okbtn">
+                OK
+            </button>
+        </div>
+        <div>
+            <table id="display">
+                <tr>
+                    <th>
+                        نام کتاب
+                    </th>
+                    <th>
+                        تعداد
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <script src="js/index.js">
+
+        </script>
+</body>
+
+</html>

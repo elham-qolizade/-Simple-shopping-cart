@@ -1,0 +1,83 @@
+* {
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.pop-up {
+    width: 400px;
+    position: absolute;
+    transform: translate(50%, -500%);
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.pop-up-open {
+    visibility: visible;
+
+    transform: translate(-14%, -71%)
+}
+
+.pop-up p {
+    font-size: 15px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.pop-up .okbtn {
+    width: 80px;
+    height: 40px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90px;
+
+}
+
+
+.container {
+    width: 300px;
+    height: 400px;
+    background-color: yellow;
+    padding: 50px;
+}
+
+h1 {
+    margin-left: 90px;
+}
+
+table,
+tr,
+td,
+th {
+    width: 100%;
+    border: 1px solid red;
+}
+
+button {
+    margin-bottom: 3%;
+    border-radius: 10px;
+    padding: 2% 9%;
+    background-color: red;
+    border: none;
+}
+
+input {
+    border: 1px solid aliceblue;
+    margin-bottom: 3%;
+    border-radius: 13px;
+    padding: 3%;
+}
